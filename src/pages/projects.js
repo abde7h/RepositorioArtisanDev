@@ -139,6 +139,17 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
+                title="Todo-list app"
+                img={project1}
+                summary="Esta aplicación te permitirá organizar tus tareas y mantener un registro de lo que tienes por hacer. La aplicación está desarrollada con Spring Boot en el backend y React en el frontend."
+                link="/"
+                github="/"
+                type="Featured project"
+              />
+            </div>
+
+            {/*            <div className="col-span-6 sm:col-span-12">
+              <Project
                 title="Crypto Screener Application"
                 img={project1}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
@@ -149,6 +160,7 @@ const projects = () => {
                 type="Featured project"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
@@ -161,18 +173,7 @@ const projects = () => {
                 type="Featured project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
-                type="Featured project"
-              />
-            </div>
+
             <div className="col-span-12">
               <FeaturedProject
                 title="Crypto Screener Application"
@@ -185,6 +186,7 @@ const projects = () => {
                 type="Featured project"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
@@ -197,6 +199,7 @@ const projects = () => {
                 type="Featured project"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
@@ -208,7 +211,7 @@ const projects = () => {
                 github="/"
                 type="Featured project"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

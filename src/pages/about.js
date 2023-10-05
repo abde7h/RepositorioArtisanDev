@@ -56,7 +56,7 @@ const about = () => {
                 desafiantes que puedan generar un impacto positivo. Si deseas
                 explorar una posible colaboración o tienes alguna pregunta, no
                 dudes en{" "}
-                <Link href={`mailto:tu@email.com`} legacyBehavior>
+                <Link href={`mailto:artesanodeveloper@gmail.com`} legacyBehavior>
                   <a className="hover:underline text-yellow-400 hover:text-yellow-600">
                     contactarme aquí
                   </a>
