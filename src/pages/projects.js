@@ -139,9 +139,9 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Todo-list app"
+                title="Manel Romeu"
                 img={project1}
-                summary="Esta aplicación te permitirá organizar tus tareas y mantener un registro de lo que tienes por hacer. La aplicación está desarrollada con Spring Boot en el backend y React en el frontend."
+                summary="Web portfolio de un actor que destaca su biografía, galeria de fotos, videobook y contacto, con un diseño moderno y optimizado para todos los dispositivos."
                 link="/"
                 github="/"
                 type="Featured project"

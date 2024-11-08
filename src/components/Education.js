@@ -47,11 +47,21 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Ingeniería de Sistemas de Telecomunicación"
-            time="2017-2019"
-            place="Universitat Autonoma de Barcelona"
-            info="Entre todas las asignaturas, destacaría programación funcional con el lenguaje C++, estadística, cálculo y electrónica."
+            type="Programación en lenguajes estructurados Cert.profesional nivel 3"
+            time="04/2024-10/2024"
+            place="Iron Hack"
+            info="Curso intensivo convalidado como Formación Profesional de Nivel 3.
+            Desarrollo de aplicaciones completas utilizando Java, Spring Boot en el back-end y Vue.js en el front-end.
+            Implementación de prácticas de desarrollo ágil, pruebas unitarias y despliegue en la nube."
           />
+
+          <Details
+            type="Ciencias de la Computación"
+            time="05/2023-actualidad"
+            place="42"
+            info="En febrero de 2023, superé con éxito la intensiva prueba de acceso de 26 días, donde programé bajo la metodología peer-to-peer. En mayo, fui aceptado y comencé mi formación en Campus 42, inmerso en un roadmap de proyectos centrados principalmente en el lenguaje C. "
+          />
+
           <Details
             type="Desarrollo Web Full Stack"
             time="09/2021 - 03/2022"
@@ -71,24 +81,10 @@ const Education = () => {
           />
 
           <Details
-            type="Front-end Especilización: JavaScript"
-            time="03/2023-06/2023"
-            place="IT Academy"
-            info="Este curso se centra en los fundamentos esenciales de JavaScript sin depender de bibliotecas o marcos de trabajo adicionales. Aprendí a programar en JavaScript utilizando el paradigma de Programación Orientada a Objetos (POO), lo que me permitió crear aplicaciones web interactivas y eficientes. Cubrimos temas como la manipulación del DOM, la gestión de eventos, la creación de clases y objetos, la encapsulación, la herencia y la reutilización de código. Este curso me proporcionó una base sólida para el desarrollo web front-end."
-          />
-
-          <Details
-            type="Back-end Especialización: JAVA"
-            time="06/2023-08/2023"
-            place="Fundació Esplai"
-            info="Tecnologías utilizadas incluyen Java, Spring y Spring Boot. Enfoque en gestión de bases de datos MySQL. Se destacan habilidades como la programación orientada a objetos basada en los principios SOLID, experiencia en el desarrollo de microservicios y la capacidad de crear y consumir APIs."
-          />
-
-          <Details
-            type="Ciencias de la Computación"
-            time="05/2023-actualidad"
-            place="42"
-            info="En febrero de 2023, superé con éxito la intensiva prueba de acceso de 26 días, donde programé bajo la metodología peer-to-peer. En mayo, fui aceptado y comencé mi formación en Campus 42, inmerso en un roadmap de proyectos centrados principalmente en el lenguaje C. "
+            type="Ingeniería de Sistemas de Telecomunicación"
+            time="2017-2019"
+            place="Universitat Autonoma de Barcelona"
+            info="Entre todas las asignaturas, destacaría programación funcional con el lenguaje C++, estadística, cálculo y electrónica."
           />
         </ul>
       </div>

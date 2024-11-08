@@ -54,18 +54,16 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Back-end"
-            company="Airplane Solution"
-            time="11/2022 - 12/2022,"
+            position="Desarrollador web"
+            company="Freelance"
+            time="06/2024 - Actualidad,"
             address="Barcelona,España"
-            work="Durante mis prácticas de desarrollador de software,
-            adquirí experiencia trabajando en aplicaciones web
-            utilizando herramientas y tecnologías modernas.
-            Colaboré con un equipo, mejorando mis habilidades para
-            resolver problemas y comunicarme efectivamente."
+            work="
+            Desarrollo de páginas web para diversos clientes, entre ellos una carpintería metálica y cerrajería, una asociación de teatro, y profesionales independientes.
+            Diseño e implementación de sitios web modernos y adaptables.
+            Optimización de SEO básico y mejores prácticas para garantizar una buena experiencia de usuario.
+            Implementación de soluciones automatizadas para la gestión de contenido y el mantenimiento de sitios web."
           />
-
-          
         </ul>
       </div>
     </div>
